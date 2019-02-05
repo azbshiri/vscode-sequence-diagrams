@@ -1306,7 +1306,7 @@ if (typeof Raphael != 'undefined') {
   var RaphaelTheme = function(diagram, options, resume) {
         this.init(diagram, _.defaults(options, {
             'font-size': 16,
-            'font-family': 'Andale Mono, monospace'
+            'font-family': 'Inconsolata, monospace'
           }), resume);
       };
 
